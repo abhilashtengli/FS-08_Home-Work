@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100%;
+    background: #000;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    width: 80em;
+    background: white;
+    padding: 3px;
+    height: 100%;
+    /* margin-top: 0; */
+    top: 0;
+
+}
+.item{
+    height: 6.9em;
+    padding: 2px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: larger;
+    opacity: 0.8;
+    color:rgb(35, 30, 30);
+}
+.main{
+ margin: 0px 130px;
+ margin-left: 120px;
+}
